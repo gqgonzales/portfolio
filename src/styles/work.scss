@@ -8,11 +8,12 @@
     font-size: 3rem;
     line-height: 20px;
   }
+
   .grid {
     display: grid;
     margin-top: 20px;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
     @include media(">=phone", "<lgphone") {
       grid-template-columns: 1fr;
     }
@@ -24,3 +25,12 @@
     }
   }
 }
+
+// .card-wrapper {
+//   opacity: 0;
+//   background-color: grey;
+//   &:hover {
+//     opacity: 0.5;
+//     background-color: grey;
+//   }
+// }

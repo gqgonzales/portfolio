@@ -15,9 +15,9 @@ import blue from "./images/blue.jpeg"
 // Social Icon
 import githubIcon from "./images/github.svg"
 import linkedinlogo from "./images/linkedinlogo.png"
+import resume from "./images/resume.svg"
 // import codepenIcon from "./images/codepen.svg"
 // import dribbbleIcon from "./images/dribbble.svg"
-
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -52,8 +52,8 @@ export default {
       imageSrc:
         "https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_700/MTc0NDc5Mjc1MTUwMjg4NTE4/why-zorbing-is-worth-a-try.webp",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
-      github: "https://github.com/gqgonzales/Zorber"
+      url: "https://zorber.herokuapp.com/",
+      github: "https://github.com/gqgonzales/Zorber",
     },
     {
       title: "Project Two", //Project Title - Add Your Project Title Here
@@ -64,8 +64,7 @@ export default {
         "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
       //Project URL - Add Your Project Url Here
       url: "http://chetanverma.com/",
-      github: "https://github.com/gqgonzales/Zorber"
-
+      github: "https://github.com/gqgonzales/Zorber",
     },
     {
       title: "Project Three", //Project Title - Add Your Project Title Here
@@ -76,8 +75,7 @@ export default {
         "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
       //Project URL - Add Your Project Url Here
       url: "https://github.com/gqgonzales/zorber",
-      github: "https://github.com/gqgonzales/Zorber"
-
+      github: "https://github.com/gqgonzales/Zorber",
     },
 
     /*
@@ -95,13 +93,11 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "Testing",
+    "Before finding software development, I created memorable retail experiences for Apple Store guests. While somewhat gratifying, I wanted to challenge myself and build things that would leave even deeper impressions.",
   aboutParaTwo:
-    "Testing",
-  aboutParaThree:
-    "Testing",
-  aboutImage:
-  blue,
+    "In learning to code, I've come to appreciate the creativity involved in finding solutions to relevant problems. My aim is to expand my repertoire and learn more languages, work on products that enrich lives, and build software that lasts. I'm learning to write the next chapter of the web and I hope you will join me on my journey!",
+  // aboutParaThree: "Testing",
+  aboutImage: blue,
   //   End About Section ---------------------
 
   // Skills Section ---------------
@@ -111,33 +107,27 @@ export default {
   skills: [
     {
       img: htmlIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      para: "The building block of the web. HTML 5.",
     },
     {
       img: cssIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      para: "Perenially in style. CSS 3.",
     },
     {
       img: jsIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      para: "My first lanaguage.",
     },
     {
       img: react_icon_black,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      para: "The fastest growing Javascript framework. React JS.",
     },
     {
       img: python_black,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      para: "Useful for building databases and querying data effectively.",
     },
     {
       img: django_black_logo,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      para: "Framework for even faster querying in Python.",
     },
   ],
 
@@ -164,9 +154,11 @@ export default {
       img: linkedinlogo,
       url: "https://www.linkedin.com/in/gabriel-gonzales-webdev/",
     },
+    {
+      img: resume,
+      url: "../src/Gabriel-Gonzales-NSS-Technical-Resume-V3.pdf",
+    },
   ],
 
   // End Contact Section ---------------
 }
-
-// Thanks for using this template, I would love to hear from you contact me at hello@chetanverma.com
