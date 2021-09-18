@@ -8,9 +8,8 @@ import python_black from "./images/pyton_black.png"
 
 // Pictures / Personals
 import blue from "./images/blue.jpeg"
-import iceland from "./images/3B37E072-4783-498A-9C56-5874393C8A64_1_105_c.jpeg"
-import squared from "./images/CD821562-C13F-4FD7-986B-1B4B13AD7CD7_1_105_c.jpeg"
-import resume from "./Gabriel-Gonzales-NSS-Technical-Resume-V3.pdf"
+import iceland from "./images/CD821562-C13F-4FD7-986B-1B4B13AD7CD7_1_105_c.jpeg"
+import resume from "./Gabriel Gonzales Resume 2021.pdf"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
@@ -25,15 +24,15 @@ export default {
   name: "Gabriel",
   headerTagline: [
     //Line 1 For Header
-    "Writing the next chapter",
+    "Full Stack Software Developer with a passion",
     //Line 2 For Header
-    "of the world wide web.",
+    "for creating interesting, memorable web experiences. ",
     //Line 3 For Header
-    "Let's go!",
+    " Delighted to meet you!",
   ],
   //   Header Paragraph
   headerParagraph:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+    "Full Stack Software Developer with a passion for creating interesting, memorable web experiences. Delighted to meet you!",
 
   //Contact Email
   contactEmail: "gq.gonzales1@gmail.com",
@@ -56,9 +55,9 @@ export default {
     {
       title: "Blessipe", //Project Title - Add Your Project Title Here
       para:
-        "Relive your favorite culinary memories with Blessipe, the Food + Travel Journal. Create entries, upload photos, and find restaurants nearby that serve soemthing similar! Blessipe was built on the foundations of Django / Python, fleshed out in React, and styled with good ol fashioned CSS.", // Add Your Service Type Here
+        "Relive your favorite culinary memories with Blessipe, the Food + Travel Journal. Create entries, upload photos, and find restaurants nearby that serve something similar! Blessipe was built on the foundations of Django / Python, fleshed out in React, and styled with good ol fashioned CSS.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc: squared,
+      imageSrc: iceland,
       //Project URL - Add Your Project Url Here
       url: "",
       github: "https://github.com/gqgonzales/blessipe-client",
@@ -79,10 +78,13 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "Before finding software development, I created memorable retail experiences for Apple Store guests. While somewhat gratifying, I wanted to challenge myself and build things that would leave even deeper impressions.",
+    "Before finding software development, I created memorable retail journeys for Apple Store guests. While somewhat gratifying, I wanted to challenge myself and build experiences that would leave even deeper impressions.",
   aboutParaTwo:
-    "In learning to code, I've come to appreciate the creativity involved in finding solutions to relevant problems. My aim is to expand my repertoire and learn more languages, work on products that enrich lives, and build software that lasts. I'm learning to write the next chapter of the web and I hope you will join me on my journey!",
-  // aboutParaThree: "Testing",
+    "My background in administration and sales makes me an excellent team player and facilitator. I keep communication and honesty at the forefront of my approach to projects, with the belief that the more dialogue we foster, the more agreeable the outcome.",
+  aboutParaThree:
+    "I’ve come to equally appreciate the creativity involved in finding solutions to relevant problems, as well as the gratification of a feature coming to life on screen. My aim is to expand my repertoire and learn more languages, work with teams that nurture growth, and help build software that makes a lasting impact.",
+  aboutParaFour:
+    "Outside of work, I am a fútbol fanatic, crossword connoisseur, and noodle enthusiast. Let's connect over our favorite authors, obscure sports stats, and travel bucket lists.",
   aboutImage: blue,
   //   End About Section ---------------------
 
@@ -93,27 +95,29 @@ export default {
   skills: [
     {
       img: htmlIcon,
-      para: "The building block of the web. HTML 5.",
-    },
-    {
-      img: cssIcon,
-      para: "Perenially in style. CSS 3.",
+      para: "HTML 5, for basic construction of the web",
     },
     {
       img: jsIcon,
-      para: "My first lanaguage.",
+      para: "Javascript, for powering elements that make our websites exciting",
+    },
+    {
+      img: cssIcon,
+      para:
+        "CSS 3, for organizing and executing on design strategies for projects",
     },
     {
       img: react_icon_black,
-      para: "The fastest growing Javascript framework. React JS.",
+      para:
+        "ReactJS, for rapid creation of functioning, fleshed-out applications",
     },
     {
       img: python_black,
-      para: "Useful for building databases and querying data effectively.",
+      para: "Python, for a simple and efficient means to structure data",
     },
     {
       img: django_black_logo,
-      para: "Framework for even faster querying in Python.",
+      para: "Django, for even faster querying and orginization within Python",
     },
   ],
 
@@ -128,7 +132,7 @@ export default {
 
   //   Contact Section --------------
 
-  contactSubHeading: "Let's build beautiful things together",
+  contactSubHeading: "Let's build wonderful things together",
   social: [
     // Add Or Remove The Link Accordingly
     { img: githubIcon, url: "https://github.com/gqgonzales" },

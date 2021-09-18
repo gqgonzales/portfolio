@@ -18,11 +18,17 @@ const About = () => {
               {data.aboutParaTwo}
               <br></br>
               <br></br>
-              {/* {data.aboutParaThree} */}
+              {data.aboutParaThree}
+              <br></br>
+              <br></br>
+              {data.aboutParaFour}
             </p>
           </div>
           <div className="image-wrapper">
-            <img src={data.aboutImage} alt="A photo of Gabe!"></img>
+            <img
+              src={data.aboutImage}
+              alt="Gabe Gonzales, Software Developer"
+            ></img>
           </div>
         </div>
       </div>
