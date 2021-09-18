@@ -1,23 +1,20 @@
 // Skills Icons
 import htmlIcon from "./images/html.svg"
 import cssIcon from "./images/css.svg"
-import reactIcon from "./images/react.svg"
 import jsIcon from "./images/javascript.svg"
-// import designIcon from "./images/design.svg"
-// import codeIcon from "./images/code.svg"
 import react_icon_black from "./images/react_icon_black.png"
 import django_black_logo from "./images/django_black_logo.png"
 import python_black from "./images/pyton_black.png"
 
-// My Picture
+// Pictures / Personals
 import blue from "./images/blue.jpeg"
+import iceland from "./images/CD821562-C13F-4FD7-986B-1B4B13AD7CD7_1_105_c.jpeg"
+import resume from "./Gabriel Gonzales Resume 2021.pdf"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
 import linkedinlogo from "./images/linkedinlogo.png"
-// import codepenIcon from "./images/codepen.svg"
-// import dribbbleIcon from "./images/dribbble.svg"
-
+import lilcv from "./images/resume.svg"
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -27,15 +24,15 @@ export default {
   name: "Gabriel",
   headerTagline: [
     //Line 1 For Header
-    "Writing the next chapter",
+    "Full Stack Software Developer with a passion",
     //Line 2 For Header
-    "of the world wide web.",
+    "for creating interesting, memorable web experiences. ",
     //Line 3 For Header
-    "Let's go!",
+    " Delighted to meet you!",
   ],
   //   Header Paragraph
   headerParagraph:
-    "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
+    "Full Stack Software Developer with a passion for creating interesting, memorable web experiences. Delighted to meet you!",
 
   //Contact Email
   contactEmail: "gq.gonzales1@gmail.com",
@@ -52,41 +49,27 @@ export default {
       imageSrc:
         "https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_700/MTc0NDc5Mjc1MTUwMjg4NTE4/why-zorbing-is-worth-a-try.webp",
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
-      github: "https://github.com/gqgonzales/Zorber"
+      url: "https://zorber.herokuapp.com/",
+      github: "https://github.com/gqgonzales/Zorber",
     },
     {
-      title: "Project Two", //Project Title - Add Your Project Title Here
+      title: "Blessipe", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Relive your favorite culinary memories with Blessipe, the Food + Travel Journal. Create entries, upload photos, and find restaurants nearby that serve something similar! Blessipe was built on the foundations of Django / Python, fleshed out in React, and styled with good ol fashioned CSS.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: iceland,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
-      github: "https://github.com/gqgonzales/Zorber"
-
+      url: "",
+      github: "https://github.com/gqgonzales/blessipe-client",
     },
-    {
-      title: "Project Three", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "https://github.com/gqgonzales/zorber",
-      github: "https://github.com/gqgonzales/Zorber"
-
-    },
-
     /*
     If You Want To Add More Project just Copy and Paste This At The End
     ,{
         title: 'Project Five',
         para: 'Something Amazing',
         imageSrc: "",
-        url: ''
+        url: '',
+        github: ''
     }
     */
   ],
@@ -95,13 +78,14 @@ export default {
 
   // About Secton --------------
   aboutParaOne:
-    "Testing",
+    "Before finding software development, I created memorable retail journeys for Apple Store guests. While somewhat gratifying, I wanted to challenge myself and build experiences that would leave even deeper impressions.",
   aboutParaTwo:
-    "Testing",
+    "My background in administration and sales makes me an excellent team player and facilitator. I keep communication and honesty at the forefront of my approach to projects, with the belief that the more dialogue we foster, the more agreeable the outcome.",
   aboutParaThree:
-    "Testing",
-  aboutImage:
-  blue,
+    "I’ve come to equally appreciate the creativity involved in finding solutions to relevant problems, as well as the gratification of a feature coming to life on screen. My aim is to expand my repertoire and learn more languages, work with teams that nurture growth, and help build software that makes a lasting impact.",
+  aboutParaFour:
+    "Outside of work, I am a fútbol fanatic, crossword connoisseur, and noodle enthusiast. Let's connect over our favorite authors, obscure sports stats, and travel bucket lists.",
+  aboutImage: blue,
   //   End About Section ---------------------
 
   // Skills Section ---------------
@@ -111,33 +95,29 @@ export default {
   skills: [
     {
       img: htmlIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      para: "HTML 5, for basic construction of the web",
+    },
+    {
+      img: jsIcon,
+      para: "Javascript, for powering elements that make our websites exciting",
     },
     {
       img: cssIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
-    },
-    {
-      img: jsIcon,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "CSS 3, for organizing and executing on design strategies for projects",
     },
     {
       img: react_icon_black,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "ReactJS, for rapid creation of functioning, fleshed-out applications",
     },
     {
       img: python_black,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      para: "Python, for a simple and efficient means to structure data",
     },
     {
       img: django_black_logo,
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+      para: "Django, for even faster querying and orginization within Python",
     },
   ],
 
@@ -152,7 +132,7 @@ export default {
 
   //   Contact Section --------------
 
-  contactSubHeading: "Let's build beautiful things together",
+  contactSubHeading: "Let's build wonderful things together",
   social: [
     // Add Or Remove The Link Accordingly
     { img: githubIcon, url: "https://github.com/gqgonzales" },
@@ -164,9 +144,11 @@ export default {
       img: linkedinlogo,
       url: "https://www.linkedin.com/in/gabriel-gonzales-webdev/",
     },
+    {
+      img: lilcv,
+      url: resume,
+    },
   ],
 
   // End Contact Section ---------------
 }
-
-// Thanks for using this template, I would love to hear from you contact me at hello@chetanverma.com

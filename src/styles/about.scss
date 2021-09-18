@@ -28,6 +28,7 @@
     h1 {
       font-size: 3rem;
       line-height: 20px;
+      text-align: center;
       @include media(">=tablet", "<desktop") {
         text-align: center;
       }
@@ -39,11 +40,11 @@
     }
   }
   .image-wrapper {
-    // max-width: 25%;
+    // max-width: 50%;
     // height: 25%;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     overflow: hidden;
     @include media(">=phone", "<lgphone") {
       width: 100%;
@@ -56,7 +57,8 @@
     }
 
     img {
-      width: 60%;
+      max-width: 66%;
+      // width: fit-content;
       height: auto;
     }
   }

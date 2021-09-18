@@ -7,18 +7,18 @@ import Header from "../components/Header"
 import Work from "../components/Work"
 import About from "../components/about"
 import Skills from "../components/skills"
-import Promotion from "../components/Promotion"
-import Footer from "../components/Footer"
+// import Promotion from "../components/Promotion"
+import Contact from "../components/Contact"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Gabriel Gonzales Full Stack Web Developer" />
+    <SEO title="Gabriel Gonzales | Full Stack Software Developer" />
     <Header></Header>
     <Work></Work>
     <About></About>
     <Skills></Skills>
-    <Promotion></Promotion>
-    <Footer></Footer>
+    {/* <Promotion></Promotion> */}
+    <Contact></Contact>
   </Layout>
 )
 

@@ -1,12 +1,12 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
-import data from "../yourdata"
+import data from "../mydata"
 
-const Footer = () => {
+const Contact = () => {
   return (
     <div className="section" id="contact">
       <div className="container">
-        <div className="footer-container">
+        <div className="contact-container">
           <Fade bottom cascade>
             <h1>Contact</h1>
             <h2>{data.contactSubHeading}</h2>
@@ -26,13 +26,11 @@ const Footer = () => {
               </a>
             ))}
           </div>
-          <span className="credits">
-            Original template by Chetan Verma
-          </span>
+          <span className="credits">Original template by Chetan Verma</span>
         </div>
       </div>
     </div>
   )
 }
 
-export default Footer
+export default Contact
