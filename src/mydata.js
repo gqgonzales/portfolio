@@ -1,23 +1,21 @@
 // Skills Icons
 import htmlIcon from "./images/html.svg"
 import cssIcon from "./images/css.svg"
-import reactIcon from "./images/react.svg"
 import jsIcon from "./images/javascript.svg"
-// import designIcon from "./images/design.svg"
-// import codeIcon from "./images/code.svg"
 import react_icon_black from "./images/react_icon_black.png"
 import django_black_logo from "./images/django_black_logo.png"
 import python_black from "./images/pyton_black.png"
 
-// My Picture
+// Pictures / Personals
 import blue from "./images/blue.jpeg"
+import iceland from "./images/3B37E072-4783-498A-9C56-5874393C8A64_1_105_c.jpeg"
+import squared from "./images/CD821562-C13F-4FD7-986B-1B4B13AD7CD7_1_105_c.jpeg"
+import resume from "./Gabriel-Gonzales-NSS-Technical-Resume-V3.pdf"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
 import linkedinlogo from "./images/linkedinlogo.png"
-import resume from "./images/resume.svg"
-// import codepenIcon from "./images/codepen.svg"
-// import dribbbleIcon from "./images/dribbble.svg"
+import lilcv from "./images/resume.svg"
 
 export default {
   //(Please Do Not Remove The comma(,) after every variable)
@@ -56,35 +54,23 @@ export default {
       github: "https://github.com/gqgonzales/Zorber",
     },
     {
-      title: "Project Two", //Project Title - Add Your Project Title Here
+      title: "Blessipe", //Project Title - Add Your Project Title Here
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
+        "Relive your favorite culinary memories with Blessipe, the Food + Travel Journal. Create entries, upload photos, and find restaurants nearby that serve soemthing similar! Blessipe was built on the foundations of Django / Python, fleshed out in React, and styled with good ol fashioned CSS.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+      imageSrc: squared,
       //Project URL - Add Your Project Url Here
-      url: "http://chetanverma.com/",
-      github: "https://github.com/gqgonzales/Zorber",
+      url: "",
+      github: "https://github.com/gqgonzales/blessipe-client",
     },
-    {
-      title: "Project Three", //Project Title - Add Your Project Title Here
-      para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
-      imageSrc:
-        "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
-      //Project URL - Add Your Project Url Here
-      url: "https://github.com/gqgonzales/zorber",
-      github: "https://github.com/gqgonzales/Zorber",
-    },
-
     /*
     If You Want To Add More Project just Copy and Paste This At The End
     ,{
         title: 'Project Five',
         para: 'Something Amazing',
         imageSrc: "",
-        url: ''
+        url: '',
+        github: ''
     }
     */
   ],
@@ -155,8 +141,8 @@ export default {
       url: "https://www.linkedin.com/in/gabriel-gonzales-webdev/",
     },
     {
-      img: resume,
-      url: "../src/Gabriel-Gonzales-NSS-Technical-Resume-V3.pdf",
+      img: lilcv,
+      url: resume,
     },
   ],
 

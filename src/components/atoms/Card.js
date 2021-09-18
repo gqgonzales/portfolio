@@ -17,22 +17,25 @@ const Card = ({ heading, paragraph, imgUrl, projectLink, githubLink }) => {
             <h2>{heading}</h2>
           </div>
           <p className="project-text">{paragraph}</p>
-          <a
-            href={projectLink ? projectLink : "#"}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn card__btn"
-          >
-            Launch
-          </a>
-          <a
-            href={githubLink ? githubLink : "#"}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn card__btn"
-          >
-            Repo
-          </a>
+          {/* BUTTONS */}
+          <div className="button-wrapper">
+            <a
+              href={projectLink ? projectLink : "#"}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn card__btn"
+            >
+              Launch
+            </a>
+            <a
+              href={githubLink ? githubLink : "#"}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn card__btn"
+            >
+              Repo
+            </a>
+          </div>
         </div>
       </div>
     </div>
