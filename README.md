@@ -1,13 +1,13 @@
-# Portfolio - V1
+# Hi, I'm Gabriel. Delighted to meet you!
 
-## An initial rollout of my personal website and portfolio.
-
-### Deployment
-
-Consider reading through the [Deploying on Github Pages](https://create-react-app.dev/docs/deployment/#github-pages) docs for React.
-Otherwise, checkout [Heroku](https://heroku.com/) for free hosting.
+Thanks for checking out my github. This repository houses my very first personal website, which I will update as my portfolio grows.
 
 ### Technologies Used
 
-- [React](https://reactjs.org/)
+
 - [Gatsby](https://www.gatsbyjs.com/)
+- [Sass](https://sass-lang.com/)
+
+### Special thanks to [Chetan Verma](https://www.chetanverma.com/).
+
+For creating the template and introducing me to Gatsby!
