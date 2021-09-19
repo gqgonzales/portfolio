@@ -1,11 +1,11 @@
 {
   "name": "react-portfolio-template",
   "private": true,
-  "description": "Portfolio Template For Awesome Peoples",
+  "description": "React Portfolio",
   "version": "0.1.0",
-  "author": "Chetan Verma <hello@chetanverma.com>",
+  "author": "Original Template by Chetan Verma <hello@chetanverma.com>",
   "dependencies": {
-    "gatsby": "^2.26.1",
+    "gatsby": "^2.32.13",
     "gatsby-image": "^2.5.0",
     "gatsby-plugin-manifest": "^2.6.1",
     "gatsby-plugin-offline": "^3.4.0",
@@ -17,8 +17,8 @@
     "gatsby-transformer-sharp": "^2.6.0",
     "node-sass": "^4.0.0",
     "prop-types": "^15.7.2",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
     "react-helmet": "^6.1.0",
     "react-reveal": "^1.2.2",
     "react-scroll": "^1.8.1"
