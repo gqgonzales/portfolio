@@ -25,7 +25,7 @@ const Card = ({ heading, paragraph, imgUrl, projectLink, githubLink }) => {
               rel="noopener noreferrer"
               className="btn card__btn"
             >
-              Launch
+              {projectLink ? "Launch" : "Coming soon"}
             </a>
             <a
               href={githubLink ? githubLink : "#"}

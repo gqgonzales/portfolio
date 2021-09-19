@@ -24,11 +24,11 @@ export default {
   name: "Gabriel",
   headerTagline: [
     //Line 1 For Header
-    "Full Stack Software Developer with a passion",
+    "Full Stack Developer",
     //Line 2 For Header
-    "for creating interesting, memorable web experiences. ",
+    "& student of the web.",
     //Line 3 For Header
-    " Delighted to meet you!",
+    "Delighted to meet you!",
   ],
   //   Header Paragraph
   headerParagraph:
@@ -44,12 +44,12 @@ export default {
     {
       title: "Zorber", //Project Title - Add Your Project Title Here
       para:
-        "Finally, a companion app for the competitive zorbing community! Zorber allows users to organize zorb races– which take place in giant, inflatable spheres– including building out a participant list, adding lap times, and leaving comments on past events. Zorber was created with ReactJs, HTML, CSS, Bootstrap, and JSON Server.", // Add Your Service Type Here
+        "Finally, a companion app for the competitive zorbing community! Zorber allows users to organize zorb races– which take place in giant, inflatable spheres– including building out a participant list, adding lap times, and crowning winners for maximum bragging rights. This project was instrumental in my understanding of React hooks and state. Zorber was created with ReactJs, HTML, CSS, Bootstrap, and JSON Server.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
         "https://images.saymedia-content.com/.image/c_limit%2Ccs_srgb%2Cq_auto:eco%2Cw_700/MTc0NDc5Mjc1MTUwMjg4NTE4/why-zorbing-is-worth-a-try.webp",
       //Project URL - Add Your Project Url Here
-      url: "https://zorber.herokuapp.com/",
+      url: "https://zorber-gwsbg.ondigitalocean.app",
       github: "https://github.com/gqgonzales/Zorber",
     },
     {
@@ -59,7 +59,7 @@ export default {
       //Project Image - Add Your Project Image Here
       imageSrc: iceland,
       //Project URL - Add Your Project Url Here
-      url: "",
+      // url: "",
       github: "https://github.com/gqgonzales/blessipe-client",
     },
     /*
