@@ -99,7 +99,7 @@ export default {
     },
     {
       img: jsIcon,
-      para: "Javascript, for powering elements that make our websites exciting",
+      para: "Javascript, for powering elements that make websites engaging",
     },
     {
       img: cssIcon,
@@ -113,7 +113,7 @@ export default {
     },
     {
       img: python_black,
-      para: "Python, for a simple and efficient means to structure data",
+      para: "Python, for simple and efficient means to structure data",
     },
     {
       img: django_black_logo,
