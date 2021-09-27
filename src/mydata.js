@@ -9,7 +9,7 @@ import python_black from "./images/pyton_black.png"
 // Pictures / Personals
 import blue from "./images/blue.jpeg"
 import iceland from "./images/CD821562-C13F-4FD7-986B-1B4B13AD7CD7_1_105_c.jpeg"
-import resume from "./Gabriel Gonzales Resume 2021.pdf"
+import resume from "./Gabriel Gonzales Resume.pdf"
 
 // Social Icon
 import githubIcon from "./images/github.svg"
