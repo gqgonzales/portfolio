@@ -8,6 +8,7 @@
   h2 {
     font-size: 3rem;
     text-align: center;
+    text-decoration: underline solid 0.25rem #0c6969;
     @include media(">=phone", "<lgphone") {
       font-size: 14px;
     }
@@ -17,6 +18,9 @@
     @include media(">=tablet", "<desktop") {
       font-size: 16px;
     }
+    // &:hover {
+    //   text-decoration: underline solid 0.25rem #0c6969;
+    // }
   }
   .heading-wrapper {
     h1 {
